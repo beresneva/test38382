@@ -1,0 +1,13 @@
+{
+ "DatasetPath": "Val(AllName) (Dupl) (1) (2)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "M"
+   ]
+  }
+ ],
+ "Expression": "dataset[idMAO, idMAO, frequency, attributes]"
+}

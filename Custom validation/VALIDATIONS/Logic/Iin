@@ -1,0 +1,13 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "Iin(x,dataset[\"c1\",\"ind1\",Frequency.Annual,\"Value\"],dataset[\"c8\",\"ind1\",Frequency.Annual,\"Value\"])"
+}

@@ -1,0 +1,13 @@
+{
+ "Routines": [
+  {
+   "Type": "Validation",
+   "Path": "Validation functions\\OutlierCheck (2 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Validation functions\\LevelCheck (2 err)"
+  }
+ ],
+ "StopIfError": true
+}

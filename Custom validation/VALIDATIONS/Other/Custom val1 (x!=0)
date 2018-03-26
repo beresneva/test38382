@@ -1,0 +1,19 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "x!=0"
+}

@@ -1,0 +1,32 @@
+{
+ "DatasetPath": "ValCustomRule(Mounthly)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c7",
+    "c8"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "H",
+    "M"
+   ]
+  }
+ ],
+ "Expression": "Collapse(dataset[cities,ind, Frequency.Monthly, attributes],Frequency.SemiAnnual,CollapseType.Average)>dataset[cities,ind, Frequency.SemiAnnual, attributes]"
+}

@@ -1,0 +1,31 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Time",
+   "Elements": [
+    "2001M11-2011M12"
+   ]
+  },
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c1"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "M"
+   ]
+  }
+ ],
+ "Expression": "dataset[\"c1\",ind,Frequency.Monthly,attributes]>0"
+}

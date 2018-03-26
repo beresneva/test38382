@@ -1,0 +1,14 @@
+{
+ "DatasetPath": "ValCustomRule(Empty timeseries)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "M"
+   ]
+  }
+ ],
+ "Expression": "x>0"
+}

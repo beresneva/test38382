@@ -1,0 +1,21 @@
+{
+ "Routines": [
+  {
+   "Type": "Validation",
+   "Path": "Basic function\\!Empty"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Basic function\\IsEmpty"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Basic function\\IsEmpty series"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\6 (1 err)"
+  }
+ ],
+ "StopIfError": true
+}

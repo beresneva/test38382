@@ -1,0 +1,27 @@
+{
+ "DatasetPath": "attribute Russia",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Идентификатор",
+   "Elements": [
+    "100",
+    "101"
+   ]
+  },
+  {
+   "DimensionName": "Регион",
+   "Elements": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "Sqrt(x)!=0"
+}

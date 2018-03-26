@@ -1,0 +1,35 @@
+{
+ "DatasetPath": "ValCustomRule(Mounthly)",
+ "Kind": 2,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c7",
+    "c8"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "H",
+    "M"
+   ]
+  }
+ ],
+ "LowerPercentile": 25,
+ "UpperPercentile": 75
+}

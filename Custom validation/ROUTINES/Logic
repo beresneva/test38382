@@ -1,0 +1,21 @@
+{
+ "Routines": [
+  {
+   "Type": "Validation",
+   "Path": "Logic\\Iif"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\Iif in iif"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\Iin"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\sin in iif in iif"
+  }
+ ],
+ "StopIfError": true
+}

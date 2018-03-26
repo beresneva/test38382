@@ -1,0 +1,25 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c6"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "Abs(dataset[cities,ind,Frequency.Annual,attributes])>2"
+}

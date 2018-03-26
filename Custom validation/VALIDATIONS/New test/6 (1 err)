@@ -1,0 +1,25 @@
+{
+ "DatasetPath": "ValCustomRule(Empty timeseries)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c6"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "M"
+   ]
+  }
+ ],
+ "Expression": "Iif(dataset[cities, ind, frequency, attributes]>0,true,false)"
+}

@@ -1,0 +1,57 @@
+var ts1 = TimeSeries.Empty(Frequency.Annual);
+ts1[new DateTime(2000, 1, 1)] = 13.5;
+ts1[new DateTime(2001, 1, 1)] = 2.2;
+ts1[new DateTime(2002, 1, 1)] = 3.7;
+ts1[new DateTime(2003, 1, 1)] = 51.89;
+ts1[new DateTime(2005, 1, 1)] = -19.7;
+ts1[new DateTime(2006, 1, 1)] = -4.1;
+
+var res = TimeSeries.Empty(Frequency.Annual);
+var ts = new []{ ts1 };
+//Sum
+WriteLine("Sum Aggregation");
+res = TimeSeriesFunctions.Aggregation(AggregationType.Sum, ts);
+if (Convert.ToDouble(res[new DateTime(2000, 1, 1)])!=13.5)
+    WriteLine("IncorectValue 13.5  should be " + res[new DateTime(2000, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2001, 1, 1)])!=2.2)
+    WriteLine("IncorectValue" + res[new DateTime(2001, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2002, 1, 1)])!=3.7)
+    WriteLine("IncorectValue" + res[new DateTime(2002, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2003, 1, 1)])!=51.89)
+    WriteLine("IncorectValue" + res[new DateTime(2003, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2005, 1, 1)])!=-19.7)
+    WriteLine("IncorectValue" + res[new DateTime(2005, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2006, 1, 1)])!=-4.1)
+    WriteLine("IncorectValue" + res[new DateTime(2006, 1, 1)]);
+
+//Average
+WriteLine("Average Aggregation");
+res = TimeSeriesFunctions.Aggregation(AggregationType.Average, ts);
+if (Convert.ToDouble(res[new DateTime(2000, 1, 1)])!=13.5)
+    WriteLine("IncorectValue" + res[new DateTime(2000, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2001, 1, 1)])!=2.2)
+    WriteLine("IncorectValue" + res[new DateTime(2001, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2002, 1, 1)])!=3.7)
+    WriteLine("IncorectValue" + res[new DateTime(2002, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2003, 1, 1)])!=51.89)
+    WriteLine("IncorectValue" + res[new DateTime(2003, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2005, 1, 1)])!=-19.7)
+    WriteLine("IncorectValue" + res[new DateTime(2005, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2006, 1, 1)])!=-4.1)
+    WriteLine("IncorectValue" + res[new DateTime(2006, 1, 1)]);
+
+//Median
+WriteLine("Median Aggregation");
+res = TimeSeriesFunctions.Aggregation(AggregationType.Median, ts);
+if (Convert.ToDouble(res[new DateTime(2000, 1, 1)])!=13.5)
+    WriteLine("IncorectValue" + res[new DateTime(2000, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2001, 1, 1)])!=2.2)
+    WriteLine("IncorectValue" + res[new DateTime(2001, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2002, 1, 1)])!=3.7)
+    WriteLine("IncorectValue" + res[new DateTime(2002, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2003, 1, 1)])!=51.89)
+    WriteLine("IncorectValue" + res[new DateTime(2003, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2005, 1, 1)])!=-19.7)
+    WriteLine("IncorectValue" + res[new DateTime(2005, 1, 1)]);
+if (Convert.ToDouble(res[new DateTime(2006, 1, 1)])!=-4.1)
+    WriteLine("IncorectValue" + res[new DateTime(2006, 1, 1)]);

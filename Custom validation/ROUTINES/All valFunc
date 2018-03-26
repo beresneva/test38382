@@ -1,0 +1,113 @@
+{
+ "Routines": [
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\ABS"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Cos"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Not warning"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Sqrt"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Sin"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Basic function\\!Empty"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Basic function\\IsEmpty"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Basic function\\IsEmpty series"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\Iif"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\Iif in iif"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\Iin"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Logic\\sin in iif in iif"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\1 (2 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\2 (err not found)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\3 (8 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\4 (err not found)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\6 (1 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New test\\7 (7 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\MovAVG"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\Lead"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\Lag"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Other\\AllNameDimensions"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Other\\2city"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Other\\3ind"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Validation functions\\LevelCheck (2 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Validation functions\\OutlierCheck (2 err)"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Russia attr"
+  }
+ ],
+ "StopIfError": true
+}

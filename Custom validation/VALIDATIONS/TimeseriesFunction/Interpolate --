@@ -1,0 +1,32 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Time",
+   "Elements": [
+    "2001M1-2011M12"
+   ]
+  },
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c1"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "M"
+   ]
+  }
+ ],
+ "Expression": "Interpolate(dataset[\"c2\", ind, Frequency.Annual,attributes],InterpolateType.Linear,Frequency.Monthly)<dataset[\"c1\",ind,Frequency.Monthly,attributes]"
+}

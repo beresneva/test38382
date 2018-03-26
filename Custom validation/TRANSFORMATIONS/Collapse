@@ -1,0 +1,7 @@
+var vcr = Knoema.UseDataset("ValCustomRule(Mounthly)");
+vcr.LoadData(vcr.Dimensions["cities"]["c1"], vcr.Dimensions["ind"]["ind1"]);
+var tmp = new TimeSeries();
+tmp = Collapse(vcr["c1", "ind1", Frequency.Monthly, "Value"],Frequency.Annual,CollapseType.Average);
+
+vcr["c1", "ind1", Frequency.Annual, "Value"] = tmp;
+vcr.SaveData(SaveOptions.Update);

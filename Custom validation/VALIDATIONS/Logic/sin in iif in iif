@@ -1,0 +1,13 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "Iif(x<50,Iif(x>10,Iif(Sqrt(x)>5,true,false),false),false)"
+}

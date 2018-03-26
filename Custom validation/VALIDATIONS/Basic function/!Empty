@@ -1,0 +1,33 @@
+{
+ "DatasetPath": "ValCustomRule(Empty timeseries)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c7",
+    "c8",
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c9"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "M"
+   ]
+  }
+ ],
+ "Expression": "!Empty(Frequency.Monthly)"
+}

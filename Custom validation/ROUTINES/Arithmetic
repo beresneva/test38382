@@ -1,0 +1,21 @@
+{
+ "Routines": [
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\ABS"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Cos"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Sin"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Arithmetic functions\\Sqrt"
+  }
+ ],
+ "StopIfError": true
+}

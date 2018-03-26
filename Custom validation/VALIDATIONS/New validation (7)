@@ -1,0 +1,14 @@
+{
+ "DatasetPath": "Val(ind3)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "M"
+   ]
+  }
+ ],
+ "Expression": "dataset[cities, indIndInd5, frequency, attributes]!=\"ser\""
+}

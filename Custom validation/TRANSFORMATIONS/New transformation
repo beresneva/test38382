@@ -1,0 +1,4 @@
+var attributeRussia = Knoema.UseDataset("attribute Russia");
+foreach (var id in attributeRussia.Dimensions["Регион"])
+{
+}

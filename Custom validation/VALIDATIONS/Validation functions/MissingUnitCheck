@@ -1,0 +1,26 @@
+{
+ "DatasetPath": "Val Custom Rule",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c4",
+    "c7"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "ValidationFunctions.MissingUnitsCheck(dataset[cities, ind, frequency, attributes],dataset[cities, ind, frequency, \"Units\"],\"%\")"
+}

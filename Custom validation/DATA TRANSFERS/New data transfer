@@ -1,0 +1,29 @@
+{
+   "TargetDatasetPath": "Private Investment, WEO April 2015 Chapter 4",
+   "SourceDatasetPath": "attribute Russia",
+   "IsSourceDataset": true,
+   "Action": "Update",
+   "DimensionMapping": [
+      {
+         "TargetDimension": "Location",
+         "SourceDimension": ""
+      },
+      {
+         "TargetDimension": "Table",
+         "SourceDimension": ""
+      },
+      {
+         "TargetDimension": "Indicator",
+         "SourceDimension": ""
+      }
+   ],
+   "SourceTargetMapping": [],
+   "Filters": [
+      {
+         "DimensionName": "Frequency",
+         "Elements": [
+            "A"
+         ]
+      }
+   ]
+}

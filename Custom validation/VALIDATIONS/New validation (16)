@@ -1,0 +1,13 @@
+{
+ "DatasetPath": "Empty name (2)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "dataset[id9, id8, frequency, attributes]==0"
+}

@@ -1,0 +1,5 @@
+var valCustomRule = Knoema.UseDataset("Val Custom Rule");
+valCustomRule.LoadData(valCustomRule.Dimensions["cities"]["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"], valCustomRule.Dimensions["ind"]["ind1"]);
+var tmp = Interpolate(valCustomRule["c1", "ind1", Frequency.Annual,  "Value"],InterpolateType.Linear,Frequency.Monthly);
+valCustomRule["c1", "ind1"] = tmp;
+valCustomRule.SaveData(SaveOptions.Update);

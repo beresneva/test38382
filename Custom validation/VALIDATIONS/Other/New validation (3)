@@ -1,0 +1,14 @@
+{
+ "DatasetPath": "Val(AllName) (2)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "M"
+   ]
+  }
+ ],
+ "Expression": ""
+}

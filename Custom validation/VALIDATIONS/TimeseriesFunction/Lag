@@ -1,0 +1,26 @@
+{
+ "DatasetPath": "ValCustomRule(Mounthly)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "cities",
+   "Elements": [
+    "c2"
+   ]
+  },
+  {
+   "DimensionName": "ind",
+   "Elements": [
+    "ind1"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "H",
+    "M"
+   ]
+  }
+ ],
+ "Expression": "Lag(x,1)>75"
+}

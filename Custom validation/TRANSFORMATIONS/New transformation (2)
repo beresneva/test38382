@@ -1,0 +1,4 @@
+var valCity2 = Knoema.UseDataset("Val(city2)");
+valCity2.LoadData(valCity2.Dimensions["cities cities"]["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9"], valCity2.Dimensions["ind"]["ind1"]);
+var res = valCity2["c1", "ind1", "Value"]+valCity2["c2", "ind1", "Value"];
+WriteLine(res);

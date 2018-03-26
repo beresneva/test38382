@@ -1,0 +1,33 @@
+{
+ "Routines": [
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\ButSplice"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\Collapse --"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\Interpolate --"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\Lag"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\Lead"
+  },
+  {
+   "Type": "Validation",
+   "Path": "TimeseriesFunction\\MovAVG"
+  },
+  {
+   "Type": "Validation",
+   "Path": "Agregation -- "
+  }
+ ],
+ "StopIfError": true
+}

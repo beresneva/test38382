@@ -1,0 +1,14 @@
+{
+ "DatasetPath": "Val(city2)",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "M"
+   ]
+  }
+ ],
+ "Expression": "dataset[citiesCities, ind, frequency, attributes]>0"
+}

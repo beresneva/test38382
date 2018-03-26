@@ -1,0 +1,19 @@
+{
+ "DatasetPath": "qwer",
+ "Kind": 10,
+ "Filters": [
+  {
+   "DimensionName": "индикатор 545",
+   "Elements": [
+    "Top Investing Countries In Africa By Capital Investment 2015"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "Expression": "dataset[\"Bahrain\", id545, frequency, attributes]==x"
+}

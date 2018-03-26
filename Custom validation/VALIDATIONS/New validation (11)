@@ -1,0 +1,20 @@
+{
+ "DatasetPath": "qwer",
+ "Kind": 5,
+ "Filters": [
+  {
+   "DimensionName": "индикатор 545",
+   "Elements": [
+    "Top Investing Countries In Africa By Capital Investment 2015",
+    "Top Investing Countries In Africa By Project Numbers 2015"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "MissingValues": "NULL;NULLS;EMPTY"
+}
