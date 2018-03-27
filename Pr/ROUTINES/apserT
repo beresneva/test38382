@@ -1,8 +1,8 @@
 {
  "Routines": [
   {
-   "Type": "Transformation",
-   "Path": "Transformation"
+   "Type": "Data transfer",
+   "Path": "Transfer"
   }
  ],
  "StopIfError": true

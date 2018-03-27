@@ -1,8 +1,8 @@
 {
  "Routines": [
   {
-   "Type": "Validation",
-   "Path": "Validation"
+   "Type": "Import",
+   "Path": "Import"
   }
  ],
  "StopIfError": true
