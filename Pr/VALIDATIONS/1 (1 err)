@@ -1,0 +1,28 @@
+{
+ "DatasetPath": "IADB Statistics",
+ "Kind": 2,
+ "Filters": [
+  {
+   "DimensionName": "Indicator",
+   "Elements": [
+    "AGR_1",
+    "AGR_2",
+    "AGR_4"
+   ]
+  },
+  {
+   "DimensionName": "Country",
+   "Elements": [
+    "AR"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "LowerPercentile": 25,
+ "UpperPercentile": 75
+}
