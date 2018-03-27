@@ -1,0 +1,3 @@
+var iadbStatistics = Knoema.UseDataset("IADB Statistics");
+iadbStatistics.LoadData();
+WriteLine(iadbStatistics["AR", "KN.N.AG1"]);
