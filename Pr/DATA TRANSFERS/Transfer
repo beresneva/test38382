@@ -1,0 +1,23 @@
+{
+   "TargetDatasetPath": null,
+   "SourceDatasetPath": "MyTS1",
+   "IsSourceDataset": true,
+   "Action": "Update",
+   "DimensionMapping": [],
+   "SourceTargetMapping": [],
+   "NewDatasetSettings": {
+      "Host": "knoema.com",
+      "AppId": "",
+      "AppSecret": "",
+      "DatasetName": "DataT"
+   },
+   "Filters": [
+      {
+         "DimensionName": "Frequency",
+         "Elements": [
+            "A",
+            "M"
+         ]
+      }
+   ]
+}
