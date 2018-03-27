@@ -13,22 +13,3 @@ ds1["Angola", Frequency.Annual] = tsA2;
 ds1.SaveData(SaveOptions.Update);
 var ds2 = Knoema.UseDataset("TransformationObservations");
 ds2.LoadData();
-var tsA3 = ds2["Angola", Frequency.Annual];
-var val1 = tsA3[new DateTime(2000, 1, 1)];
-var val2 = tsA3[new DateTime(2001, 1, 1)];
-var val3 = tsA3[new DateTime(2002, 1, 1)];
-if (val1 != null)
-{
-	WriteLine(val1);
-	throw new Exception ("Error");
-}
-if ((double)val2 != 10)
-{
-	WriteLine(val2);
-	throw new Exception ("Error");
-}
-if (val3 != null)
-{
-	WriteLine(val3);
-	throw new Exception ("Error");
-}
