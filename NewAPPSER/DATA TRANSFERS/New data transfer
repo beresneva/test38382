@@ -1,0 +1,21 @@
+{
+   "TargetDatasetPath": "Scale1",
+   "SourceDatasetPath": "Scale2",
+   "IsSourceDataset": true,
+   "Action": "Update",
+   "DimensionMapping": [
+      {
+         "TargetDimension": "Region",
+         "SourceDimension": "Region"
+      }
+   ],
+   "SourceTargetMapping": [],
+   "Filters": [
+      {
+         "DimensionName": "Frequency",
+         "Elements": [
+            "A"
+         ]
+      }
+   ]
+}

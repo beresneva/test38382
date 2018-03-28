@@ -1,15 +1,8 @@
-var ds = Knoema.UseDataset("TransformationObservations");
-var tsA1 = ds["Angola", Frequency.Annual];
-tsA1[new DateTime(2000, 1, 1)] = 0;
-tsA1[new DateTime(2001, 1, 1)] = 1;
-tsA1[new DateTime(2002, 1, 1)] = 2;
-tsA1[new DateTime(2003, 1, 1)] = 3;
-ds["Angola", Frequency.Annual] = tsA1;
-ds.SaveData(SaveOptions.Update);
-var ds1 = Knoema.UseDataset("TransformationObservations");
-var tsA2 = ds1["Angola", Frequency.Annual];
-tsA2[new DateTime(2001, 1, 1)] = 10;
-ds1["Angola", Frequency.Annual] = tsA2;
-ds1.SaveData(SaveOptions.Update);
-var ds2 = Knoema.UseDataset("TransformationObservations");
-ds2.LoadData();
+var scale1 = Knoema.UseDataset("Scale1");
+var scale2 = Knoema.UseDataset("Scale2");
+scale1.LoadData();
+foreach (var ts in scale1)
+{
+	scale2[ts.Coordinate] = ts.TimeSeries;
+}
+scale2.SaveData(SaveOptions.Update);
