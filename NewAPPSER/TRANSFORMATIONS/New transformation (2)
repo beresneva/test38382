@@ -1,0 +1,8 @@
+var scale1 = Knoema.UseDataset("Scale1");
+var scale2 = Knoema.UseDataset("Scale2");
+scale1.LoadData();
+foreach (var ts in scale1)
+{
+	scale1[ts.Coordinate] = ts.TimeSeries;
+}
+scale2.SaveData(SaveOptions.Update);
