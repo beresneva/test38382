@@ -1,0 +1,58 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "",
+      "Metadata": {
+         "Name": "Scale1",
+         "DatasetId": "ozhbdnf",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\Users\\user\\Desktop\\for pd\\DatasetUpload-Scale2.xlsx",
+      "Sheet": "",
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Scale",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "3",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}
