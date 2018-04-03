@@ -1,0 +1,21 @@
+{
+ "Routines": [
+  {
+   "Type": "Transformation",
+   "Path": "New transformation"
+  },
+  {
+   "Type": "Validation",
+   "Path": "New validation"
+  },
+  {
+   "Type": "Data transfer",
+   "Path": "New data transfer"
+  },
+  {
+   "Type": "Import",
+   "Path": "New import"
+  }
+ ],
+ "StopIfError": true
+}

@@ -1,0 +1,21 @@
+{
+   "TargetDatasetPath": "Beta2",
+   "SourceDatasetPath": "Beta",
+   "IsSourceDataset": true,
+   "Action": "Update",
+   "DimensionMapping": [
+      {
+         "TargetDimension": "country",
+         "SourceDimension": "country"
+      }
+   ],
+   "SourceTargetMapping": [],
+   "Filters": [
+      {
+         "DimensionName": "Frequency",
+         "Elements": [
+            "A"
+         ]
+      }
+   ]
+}
