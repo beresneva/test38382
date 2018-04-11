@@ -1,6 +1,6 @@
 {
-   "TargetDatasetPath": "Scale1",
-   "SourceDatasetPath": "Scale2",
+   "TargetDatasetPath": "Scale2",
+   "SourceDatasetPath": "Scale1",
    "IsSourceDataset": true,
    "Action": "Update",
    "DimensionMapping": [
